@@ -7,7 +7,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class EmployeeReader {
-    private static final String INPUT_FILE = "E:\\xworkz\\git\\core-java\\Test\\src\\employee\\InputEmployees.txt";
+    private static final String INPUT_FILE = "Sample project/EmployeeSalary-java/employee/InputEmployees.txt";
 
     public static List<Employee> readEmployees() {
         List<Employee> employees = new ArrayList<>();
