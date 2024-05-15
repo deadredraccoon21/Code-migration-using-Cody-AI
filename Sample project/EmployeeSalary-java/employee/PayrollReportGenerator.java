@@ -8,7 +8,7 @@ import java.time.format.DateTimeFormatter;
 import java.util.List;
 
 public class PayrollReportGenerator {
-    private static final String OUTPUT_FILE = "E:\\xworkz\\git\\core-java\\Test\\src\\employee\\Output.txt";
+    private static final String OUTPUT_FILE = "Sample project/EmployeeSalary-java/employee/Output.txt";
     private static final DecimalFormat MONEY_FORMAT = new DecimalFormat("#,##0.00");
 
     public static void generatePayrollReport(List<Employee> employees) {
